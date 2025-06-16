@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>節奏音符遊戲</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sekai.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>節奏音符遊戲</h1>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div id="info">
+            <p>按下 A S D F 鍵來打擊音符</p>
+            <p id="score">分數：0</p>
+            <button id="restart">重新開始</button>
+        </div>
+        <div style="margin-bottom:1rem;">
+            <label for="speed">下落速度：</label>
+            <select id="speed">
+                <option value="2">慢</option>
+                <option value="4" selected>中</option>
+                <option value="7">快</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>

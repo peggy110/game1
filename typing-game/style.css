@@ -1,0 +1,74 @@
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background: #b3e5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: rgba(255,255,255,0.98);
+    padding: 2rem 3rem;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(100,150,200,0.12);
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+#gameCanvas {
+    background: linear-gradient(180deg, #f8fafc 0%, #e0eafc 100%);
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(100,150,200,0.18);
+    border: 2px solid #90caf9;
+}
+#word {
+    font-size: 2rem;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+    color: #1e3c72;
+    font-weight: bold;
+}
+#input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #b0bec5;
+    outline: none;
+    transition: border 0.2s;
+}
+#input:focus {
+    border: 1.5px solid #00bcd4;
+}
+#result {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #00796b;
+}
+#score {
+    font-size: 1.3rem;
+    color: #1976d2;
+    font-weight: bold;
+}
+#restart {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #64b5f6 0%, #1976d2 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.12);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+#restart:hover {
+    background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+    box-shadow: 0 4px 16px rgba(33,150,243,0.18);
+}
+#info p {
+    color: #333;
+    margin: 0.5rem 0;
+}
