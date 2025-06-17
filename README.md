@@ -9,4 +9,4 @@
 - 可調整下落速度（慢、中、快）。
 
 ## 開始遊戲
-[點我開始遊戲](./typing-game/index.html)
+[點我開始遊戲](https://peggy110.github.io/game1/)
